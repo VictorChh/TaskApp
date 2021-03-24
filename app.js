@@ -57,6 +57,7 @@ $(document).ready(function() {
         $.post(url, postData, function(response){
             console.log(response);
             ShowTasks();
+            edit =false;
             $('#task-form').trigger('reset');
         });
         e.preventDefault();
