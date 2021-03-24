@@ -10,6 +10,6 @@
         echo "Database connected";
     }
 else{
-    echo "no connection". mysqli_error($connection);
+    echo "no connection";
 }
 ?>
