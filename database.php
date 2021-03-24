@@ -7,6 +7,6 @@
     );
 
     if($connection){
-       // echo "Database connected";
+        echo "Database connected";
     }
 ?>
