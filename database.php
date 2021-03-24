@@ -9,4 +9,5 @@
     if($connection){
         echo "Database connected";
     }
+echo "test";
 ?>
