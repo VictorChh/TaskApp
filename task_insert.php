@@ -12,16 +12,8 @@ if (isset($_POST['name'])) {
         die("Query failed" . mysqli_error($connection));
     }
     else {
-        $json = array();
-        while($row = mysqli_fetch_array($result)) {
-            $json[] = array(
-                'name' => $row['name'],
-                'description' => $row['description'],
-                'ID' => $row['ID']
-            );
-        }
-        $jsonstring = json_encode($json);
-        echo $jsonstring;
+
+        echo "Registro insertado exitosamente";
     }
 
 }
